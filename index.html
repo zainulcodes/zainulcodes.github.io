@@ -392,11 +392,19 @@ transform: scale(1.05);
       <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/aos.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ESYPH7BCRW"></script>
       <script>
          AOS.init({
          duration: 1000,
          once: true
          });
+        //  <!-- Google tag (gtag.js) -->
+        window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+ 
+         gtag('config', 'G-ESYPH7BCRW');
       </script>
+        
    </body>
 </html>
