@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://byteflux.my.id/sitemap.xml
